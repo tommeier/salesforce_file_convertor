@@ -1,0 +1,13 @@
+# Salesforce File Convertor
+
+## Purpose
+
+When running a bulk export from salesforce with included documents & attachments, it puts all the files in an unusuable format.
+This script renames all the files exported to their correct name and extension, and placed in a 'Processed' directory.
+  
+## Install
+
+  	1. Have Ruby installed.
+  	2. Place the salesforce_file_convertor.rb file in the same directory as your exported csvs (where the 'Documents' & 'Attachments' directories are located)
+  	3. Go to directory in terminal and run:
+  	      - ruby salesforce_file_convertor.rb
